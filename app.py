@@ -25,10 +25,10 @@ def upload_data_file():
     # --- 1. Check if all required data is in the request ---
     
     # Renamed the file part to 'data_file' to be more generic
-    if 'data_file' not in request.files:
+    if 'file_path' not in request.files:
         return jsonify({"error": "No data_file part in the request"}), 400
 
-    file = request.files['data_file']
+    file = request.files['file_path']
     website_name = request.form.get('website_name')
 
     if not website_name:
