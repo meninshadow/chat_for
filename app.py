@@ -15,10 +15,9 @@ def allowed_file(filename):
            filename.rsplit('.', 1)[1].lower() in ALLOWED_EXTENSIONS
 
 # Renamed endpoint to be more generic
-@app.route('/api/upload_file', methods=['POST'])
-def upload_data_file():
-    # --- 1. Check if all required data is in the request ---
-    print("it is working....! ")
+
+@app.route('/', methods=['GET'])
+
 
 # Renamed endpoint to be more generic
 @app.route('/api/upload_file', methods=['POST'])
