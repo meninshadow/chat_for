@@ -5,7 +5,8 @@ openai>=1.0.0
 flask>=2.0
 flask-cors>=3.0
 gunicorn
-pandas openpyxl
+pandas
+openpyxl
 google-generativeai
 langchain_google_genai langchain langchain-community
 faiss-cpu
