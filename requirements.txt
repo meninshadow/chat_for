@@ -9,7 +9,8 @@ pandas
 openpyxl
 google-generativeai
 langchain_google_genai 
-langchain langchain-community
+langchain 
+langchain-community
 faiss-cpu
 sentence-transformers
 unstructured
